@@ -1,0 +1,196 @@
+{
+  "Users": [
+    {
+      "id": 1,
+      "name": "Naman",
+      "category": "Entertainment",
+      "expense": "1000",
+      "itemName": "xjh",
+      "date": "2023-04-05"
+    },
+    {
+      "id": 2,
+      "name": "Arpit",
+      "category": "Entertainment",
+      "expense": "3000",
+      "itemName": "aksjd",
+      "date": "2023-04-05"
+    },
+    {
+      "name": "pramod",
+      "category": "Necessary",
+      "expense": "10000",
+      "itemName": "water",
+      "date": "2023-04-15",
+      "id": 3
+    },
+    {
+      "name": "Sparsh",
+      "category": "Necessary",
+      "expense": "129130",
+      "itemName": "electricity",
+      "date": "2023-04-04",
+      "id": 4
+    },
+    {
+      "name": "jayesh",
+      "category": "Necessary",
+      "expense": "298372",
+      "itemName": "house",
+      "date": "2023-04-20",
+      "id": 5
+    },
+    {
+      "name": "Naman",
+      "category": "Necessary",
+      "expense": "823748",
+      "itemName": "hello",
+      "date": "2023-04-05",
+      "id": 6
+    },
+    {
+      "name": "Naman",
+      "category": "Entertainment",
+      "expense": "732647",
+      "itemName": "Gift",
+      "date": "2023-02-15",
+      "id": 7
+    },
+    {
+      "name": "Naman",
+      "category": "Necessary",
+      "expense": "12093821",
+      "itemName": "gift",
+      "date": "2023-04-22",
+      "id": 8
+    },
+    {
+      "name": "Naman",
+      "category": "Necessary",
+      "expense": "602088",
+      "itemName": "house",
+      "date": "2023-12-21",
+      "id": 9
+    },
+    {
+      "name": "Arpit",
+      "category": "Entertainment",
+      "expense": "623723",
+      "itemName": "electricity",
+      "date": "2023-04-23",
+      "id": 10
+    },
+    {
+      "name": "soumo",
+      "category": "Entertainment",
+      "expense": "5083",
+      "itemName": "gf",
+      "date": "2023-04-24",
+      "id": 11
+    },
+    {
+      "name": "Naman",
+      "category": "Entertainment",
+      "expense": "78678",
+      "itemName": "Gift",
+      "date": "2023-04-24",
+      "id": 12
+    },
+    {
+      "name": "Fardeen",
+      "category": "Necessary",
+      "expense": "7346",
+      "itemName": "ndsjkf",
+      "date": "2023-04-20",
+      "id": 13
+    },
+    {
+      "name": "Naman",
+      "category": "Entertainment",
+      "expense": "875675",
+      "itemName": "gift",
+      "date": "2023-04-26",
+      "id": 14
+    },
+    {
+      "name": "Abhishek",
+      "category": "Necessary",
+      "expense": "25634",
+      "itemName": "electricity",
+      "date": "2023-04-26",
+      "id": 15
+    },
+    {
+      "name": "Vivek",
+      "category": "Necessary",
+      "expense": "78364",
+      "itemName": "gift",
+      "date": "2023-04-26",
+      "id": 16
+    },
+    {
+      "name": "Aditya",
+      "category": "Entertainment",
+      "expense": "576456",
+      "itemName": "gf",
+      "date": "2023-04-26",
+      "id": 17
+    },
+    {
+      "name": "Aditya",
+      "category": "Necessary",
+      "expense": "783",
+      "itemName": "electricity",
+      "date": "2023-04-26",
+      "id": 18
+    },
+    {
+      "name": "Aditya",
+      "category": "Necessary",
+      "expense": "873647",
+      "itemName": "electricity",
+      "date": "2023-01-26",
+      "id": 19
+    },
+    {
+      "name": "Naman",
+      "category": "Necessary",
+      "expense": "76556",
+      "itemName": "house",
+      "date": "2023-04-27",
+      "id": 20
+    },
+    {
+      "name": "Naman",
+      "category": "Necessary",
+      "expense": "7876867",
+      "itemName": "water",
+      "date": "2023-04-27",
+      "id": 21
+    },
+    {
+      "name": "Arpit",
+      "category": "Entertainment",
+      "expense": "2387",
+      "itemName": "Gift",
+      "date": "2023-04-27",
+      "id": 22
+    },
+    {
+      "name": "Naman",
+      "category": "Necessary",
+      "expense": "6737",
+      "itemName": "gift",
+      "date": "2023-05-02",
+      "id": 23
+    },
+    {
+      "name": "Naman",
+      "category": "Necessary",
+      "expense": "2344",
+      "itemName": "Gift",
+      "date": "2023-05-05",
+      "id": 24
+    }
+  ]
+}

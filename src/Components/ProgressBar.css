@@ -1,0 +1,44 @@
+.myProgress {
+  width: 50vw;
+  height: 6px;
+  background: rgb(20, 231, 126);
+  background: linear-gradient(
+    90deg,
+    rgb(20, 231, 126, 1) 0%,
+    rgba(252, 176, 69, 1) 50%,
+    rgba(253, 29, 29, 1) 100%
+  );
+  border-radius: 10px;
+ margin-bottom: 20px;
+}
+
+.myBar {
+  margin-top: -13px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  /* display: flex; */
+  /* background-color: #5161ce;     */
+  /* background-image: url("https://assets.materialup.com/uploads/bcf6dd06-7117-424f-9a6e-4bb795c8fb4d/preview.png"); */
+  /* background-repeat: no-repeat, no-repeat; */
+  /* background-position: right, left; */
+  /* border: 1px solid black; */
+}
+.bar-icn {
+  width: 30px;
+  height: 30px;
+}
+.parentprogress {
+  width: 100%;
+  display: grid;
+  place-items: center;
+}
+/* .myBar::before {
+    margin-top: 5px;
+    content: "0";
+  }
+  
+  .myBar::after {
+    margin-top: 5px;
+    content: "100";
+  } */

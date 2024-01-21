@@ -1,0 +1,39 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.9/css/weather-icons.min.css);
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;700&display=swap");
+
+.weather-card {
+    font-family: "Nunito", sans-serif;
+    border: 1px solid white;
+    border-radius: 5px;
+    color: rgb(250, 249, 249);
+    text-transform: capitalize;
+    margin: 7vh auto;
+    width: 93%;
+    padding: 0px 10px;
+    background-color: #5162ce;
+    -webkit-box-shadow: 4px 8px 20px 2px rgb(0, 0, 0);
+    box-shadow: 4px 8px 20px 2px rgb(201, 201, 201);
+}
+
+.two-sided-section {
+    color: #c9c7c7;
+    text-align: center;
+    align-items: center;
+}
+.icn {
+    font-size: 3.3rem;
+}
+.weatherCondition {
+    display: flex;
+    justify-content: space-around;
+    margin-right: 10%;
+}
+.temp-detail {
+    margin-top: 3%;
+}
+.place {
+    text-align: center;
+}
+.extra-temp {
+    margin-top: 5%;
+}

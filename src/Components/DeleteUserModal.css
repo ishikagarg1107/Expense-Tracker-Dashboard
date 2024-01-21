@@ -1,0 +1,17 @@
+.delete-user-modal-container {
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  left: 0;
+  z-index: 999;
+  background-color: black;
+}
+.delete-user-modal {
+  z-index: 1000;
+  height: 30vh;
+  width: 50vw;
+  background-color: white;
+}

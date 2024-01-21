@@ -1,0 +1,93 @@
+.inputControl {
+  width: 30vw;
+  height: 30px;
+  margin-bottom: 20px;
+  /* border-radius: 0.5rem;
+  padding: 3px;
+  padding-left: 10px;
+  border: 1px solid #091842; */
+}
+
+.formContainer {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  align-items: center;
+  background-color: white;
+  padding: 40px 20px;
+  border-radius: 20px;
+}
+
+.addUserData h2 {
+  margin-top: 0;
+  color: #5161ce;
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+  outline: none;
+}
+.option {
+  height: 37px;
+}
+.btn-crud.add.sub {
+  margin-left: auto;
+}
+label {
+  font-weight: bold;
+}
+.addUserData {
+  background-color: white;
+  margin-top: 20px;
+  border-radius: 20px;
+  height: fit-content;
+  width: fit-content;
+  position: fixed;
+  z-index: 3;
+  margin-left: 27vw;
+  animation: anime;
+  animation-duration: 0.5s;
+}
+@keyframes anime {
+  0% {
+    transform: translateY(-100%) scale(0);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateY(0) scale(1);
+    opacity: 1;
+  }
+}
+.btn-crud.add.sub {
+  background-color: rgb(0, 102, 255);
+}
+.btn-crud.add.sub:hover {
+  background-color: rgb(0, 102, 255);
+}
+.btn-crud {
+  /* border-radius: 30%; */
+  border: 2px solid #091842;
+  color: #091842;
+
+  margin: 5px;
+  font-weight: bold;
+  /* text-align: center; */
+  font-size: medium;
+  height: 40px;
+  width: 80px;
+  background-color: transparent;
+  /* transition: all 0.1s ease-in-out; */
+  color: white;
+  background-color: rgb(0, 81, 255);
+  border-radius: 5px;
+  border: none;
+}
+.btn-crud:hover {
+  background-color: rgb(0, 102, 255);
+}
+.btn-crud:active {
+  transform: scale(0.9);
+}

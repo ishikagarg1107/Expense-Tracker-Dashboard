@@ -1,0 +1,70 @@
+.user-dashboard-container {
+    margin: 0;
+    width: 60vw;
+    margin-left: 20vw;
+    height: 100vh;
+    background-color: white;
+}
+
+.dashboard {
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    line-height: 2rem;
+    width: 100%;
+}
+
+.dashboard-header {
+    width: 93%;
+}
+
+.dashboard-header-name {
+    font-size: 2rem;
+    color: #5162ce;
+    font-weight: 500;
+    font-family: "Nunito", sans-serif;
+}
+
+.dashboard-header-details {
+    padding-bottom: 10px;
+}
+
+.user-graph-show {
+    width: 100%;
+    margin-right: 10px;
+    margin-left: 5px;
+    padding: 5px;
+    -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+    box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+}
+.user-expense-table {
+    width: 57vw;
+    -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+    box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+    padding: 2px;
+}
+#modal-modal-description {
+    margin-bottom: 5vh;
+    font-family: "Poppins", sans-serif;
+}
+.delete-modal-btn-container {
+    float: right;
+}
+.modal-btn-delete {
+    margin-right: 15px;
+    border-radius: 5px;
+    height: 30px;
+    width: 80px;
+}
+.modal-btn-delete.green {
+    background-color: transparent;
+    border: 1px solid greenyellow;
+    color: yellowgreen;
+}
+.modal-btn-delete.red {
+    background-color: red;
+    border: none;
+    color: white;
+}

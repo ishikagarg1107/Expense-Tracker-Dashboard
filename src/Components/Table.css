@@ -1,0 +1,32 @@
+
+.table-container {
+  height: auto;
+  padding: 40px;
+  overflow-x: hidden;
+  background-color: white;
+  width: 69vw;
+  margin: 0 auto 30px;
+  border-radius: 5px;
+  font-family: 'Poppins', sans-serif; 
+  
+}
+
+
+.viewButton {
+  display: inline-block;
+  padding: 2px 5px;
+  border-radius: 5px;
+  color: darkblue;
+  border: 1px solid rgba(0, 0, 139, 0.596);
+  cursor: pointer;
+}
+
+.deleteButton {
+  display: inline-block;
+  padding: 2px 5px;
+  border-radius: 5px;
+  color: crimson;
+  border: 1px solid rgba(220, 20, 60, 0.6);
+  cursor: pointer;
+  margin-left: 4px;
+}

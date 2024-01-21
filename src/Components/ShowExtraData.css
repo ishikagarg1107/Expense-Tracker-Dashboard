@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,600&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+.showExtraData-container {
+  position: fixed;
+  background-color: white;
+  height: 100vh;
+  width: 20vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  /* transform: translateX(-100%); */
+  z-index: 3;
+  animation: showSidebar 0.5s both;
+}
+@keyframes showSidebar {
+  0% {
+    left: -20vw;
+  }
+  100% {
+    left: 0vw;
+  }
+}
+.close {
+  transform: scale(1.8);
+  color: white;
+  margin-left: 30px;
+  margin-top: 20px;
+}
+.close:active {
+  transform: scale(1.5);
+}
+.graph-list {
+  font-family: "Roboto", sans-serif;
+  height: 100vh;
+  width: 20vw;
+  background-color: #5161ce;
+}
+
+.graph-list li {
+  list-style-type: none;
+}
+.graph-list ul {
+  margin-top: 20vh;
+  margin-left: 3vw;
+}
+.graph-list ul li {
+  color: rgba(255, 255, 255, 0.5);
+  text-decoration: none;
+  font-size: 15px;
+  line-height: 125px;
+  display: block;
+  padding: 0px 2.4vw;
+  position: relative;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+.graph-list ul li:hover {
+  color: aliceblue;
+  transform: scale(1.1);
+  transition: all 0.2s ease-in-out;
+}
+.graph-show {
+  height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1vh;
+}
+.show-graph.active {
+  color: white;
+  transform: scale(1.1);
+}
